@@ -1,11 +1,16 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
-class Calculator
-{
+#include <ostream>
+
+class Calculator { 
 	public:
-		int Add (double, double);
-		int Sub (double, double);
+		int add(double, double);
+		int sub(double, double);
+		double mul(double, double);
+		double div(double, double);
 };
 
-#endif//CALCULATOR_H
+void hello();
+
+#endif //CALCULATOR_H
